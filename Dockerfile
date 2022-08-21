@@ -1,3 +1,3 @@
-FROM aolweny/fluentd-base:20220812-210613
+FROM docker.io/aolweny/fluentd-base:latest
 LABEL maintainer "Allan Olweny <allan.olweny+github@gmail.com>"
 COPY ./conf/*.conf /fluentd/etc/
